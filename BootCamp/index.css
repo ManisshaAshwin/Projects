@@ -81,20 +81,20 @@ button{
     width:480px;
     height:750px;
     margin:80px auto;
-}
-
-.box3a{
-    width:480px;
-    height:300px;
     border:1px solid lightgray;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
 
+.box3a{
+    width:480px;
+    height:300px;
+    
+}
+
 .box3b{
     width:480px;
     height:450px;
-    border:1px solid lightgray;
     padding-left:20px;
     font-family: Roboto;
     box-sizing: border-box;
@@ -138,3 +138,58 @@ button{
     border:1px solid lightgray;
     border-radius: 20px;
 }
+
+.box4{
+    width:480px;
+    height:750px;
+    margin:80px auto;
+    text-align: center;
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+.b4logo{
+    margin-bottom:0;
+}
+
+.emailb4{
+    margin-bottom: 20px;
+    width:260px;
+    height:40px;
+    border:1px solid gray;
+    border-radius: 15px;
+
+}
+.passwordb4{
+    margin-bottom: 20px;
+    width:260px;
+    height:40px;
+    border:1px solid gray;
+    border-radius: 15px;
+}
+.emailb4::placeholder, .passwordb4::placeholder{
+    padding-left:13px;
+    font-size: 15px;
+}
+
+.loginbtnb4{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.noteb4a,.noteb4b{
+    color:grey;
+    font-size: 13px;
+    margin-bottom:0;
+}
+
+.noteb4c{
+    color:grey;
+    font-size: 13px;
+}
+
+
+
+
+
