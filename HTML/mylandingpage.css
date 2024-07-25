@@ -1,0 +1,53 @@
+.welcomepageheader{
+    font-size: 80px; 
+    font-family: Roboto; 
+    font-weight: 500;
+    text-align: center;
+    color:antiquewhite;
+    margin-top: 150px;
+    border-color: bisque;
+}
+
+.welcomepageh5{
+    font-size: 50px; 
+    font-family: Roboto; 
+    font-weight: 100;
+    text-align: center;
+    color:antiquewhite;
+    margin-top: 20px;
+    border-color: bisque;
+}
+
+body{
+    background-color: rgb(80, 42, 18);
+}
+
+.secondbutton,
+.firstbutton{
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(241, 213, 179);
+    color: rgb(58, 2, 2);
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+
+.firstbutton{
+    display: inline-block;
+    margin-left: 350px;
+    width:270px;
+    height:30px;
+}
+.secondbutton{
+    margin-left: 100px;
+    width:270px;
+    height:70px;
+}

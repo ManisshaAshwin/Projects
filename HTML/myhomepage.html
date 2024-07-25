@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>The Hunt Begins!</title>
+<meta http-equiv="refresh" content="180; url=http://127.0.0.1:5500/HTML/index.html">
+<meta charset="UTF-8">
+<meta name="keywords" content="Best clubs, Nightclubs, Club groups, Club Events, Pub, Pubs">
+<link rel="pageicon" href="Images/Logo1CP.png" type="image/png">
+<link rel="stylesheet" href="index.css" type="text/css">
+</head>
+<body>
+<header class="bodyheader">
+    <h1 class="pagetitle"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Club <img class="logoimage" src="Images/Logo1CP.png" title="logoimage" alt="logoimg" width="30px" height="30px"></img> Partner</h1>
+</header>
+<!--Main Content-->
+<main class="maincontent">
+   <section class="welcomesection">
+    <h2 class="welcomequote">Welcome to Club Partner</h1>
+    <h5 class="welcomenote">"The Ultimate Party Search Begins Here! Start Hunting! "</h5>
+<nav>  
+    <button class="firstbutton" onclick="openForm()">Sign In</button>
+    <a class="secondbutton" href="/HTML/myhomepage.html">Sign Up</a>
+</nav>
+<div class="signinform" id="myForm">
+    <form action="/action_page.php">
+        <h1>Login</h1>
+        
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+    </form>
+</div>
+<script>
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+    
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+    </script>
+</section> 
+<section id="pagesummary">
+    <h2 class="pagesumheader"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman'; text-align: center;">Find your Party Animal and, if luckier find your Party Clan</h2>
+    <br>
+    <p style="line-height: 30px; font-family: Calibri, 'Trebuchet MS', sans-serif; text-align: justify; font-size: 20px;">Step into the ultimate nightlife experience by discovering your perfect party partner and, if luckier, your entire party clan! Connect with fellow party enthusiasts, share unforgettable nights, and create lasting memories together. Whether you are looking for a dance buddy or a full-on party crew, your next great night out starts here. Join us and let the good times roll!</p>
+</section>
+
+<div id="imagescroll">
+    <img class="sumimage1" src="Images/sumimage1.jpg"  alt="Image showing friends cheering up holding their beer" title="Cheer Up with your tribe" width="700" height="500" style="display:block; margin-left: 300px;">
+</div>
+
+<article class="contents">
+    <h2 class="contentsheader">Contents</h2>
+    <nav>
+        <ul class="contentslist">       
+            <li><a class="button" href="#findyourpartner">Find your Partner</a></li>
+            <li><a class="button" href="#findyourtribe">Find your tribe</a></li>
+            <li><a class="button" href="#createyourprofile">Create your Profile</a></li>
+            <li><a class="button" href="#createnewtribe">Create new tribe</a></li>
+            <li><a class="button" href="#registeryourclub">Register your club</a></li>
+            <li><a class="button" href="#clubmembership">Club Membership Details</a></li>
+            <li><a class="button" href="#happyhours">Happy Hours Announcement</a></li>
+        </ul>
+    </nav>
+</article>
+
+<section id="findyourpartner">
+    <h2>Find My Partner</h2>
+</section>
+<br>
+<hr>
+<section id="findyourtribe">
+    <h2>Find My Tribe</h2>
+</section>
+<br>
+<hr>
+<section id="createyourprofile">
+    <h2>Create My Profile</h2>
+</section>
+<br>
+<hr>
+<section id="createnewtribe">
+    <h2>Create My New Tribe</h2>
+</section>
+<br>
+<hr>
+<section id="registeryourclub">
+    <h2>Register My Club</h2>
+</section>
+<br>
+<hr>
+<section id="clubmembership">
+    <h2>Club Membership Details</h2>
+</section>
+<br>
+<hr>
+<section id="happyhours">
+    <h2>Happy Hours Announcement</h2>
+</section>
+
+</main>
+</body>
+</html>
