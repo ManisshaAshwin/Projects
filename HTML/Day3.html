@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 2px solid white;
+            border-collapse: collapse;
+        }
+
+        th,td{
+            background-color: lightseagreen;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Git Cheat sheet</h1>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <th>Sl.No</th>
+                <th>Command</th>
+                <th>Definition</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>git init</td>
+                <td>Initializes your local directory as a new git repository. You must run this before you can commit any of your work.</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>git status</td>
+                <td>Shows the current status of your repo. It will show you if you have any work that is unstaged, what branch you are on, how many commits you are ahead of the master remote on github, and other useful things.</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>git diff</td>
+                <td>Shows you the changes in your unstaged code.</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>gitt remote -v</td>
+                <td>Shows you all the remotes for your repo. The v stands for verbose, which shows you the URL of the repository on github, if any, that your local repository is pointing to rather than just the name of the remote repo.</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>git add</td>
+                <td>Takes all unstaged work and stages it, making it ready to be committed. You can also specify a particular file to stage with git add file-path/name-of-file</td>
+            </tr>
+            <tr>
+                <td>6.</td>
+                <td>git commit -m</td>
+                <td>"write commit message here" commits all staged work. It’s important to write a brief, clear commit message so you know what each commit is for. “Final commit” is not the commit message you’re looking for exactly 100% of the time.</td>
+            </tr>
+            <tr>
+                <td>7.</td>
+                <td>git pull</td>
+                <td>By default, this will pull from the origin remote’s master branch. To be specific about which remote and branch to pull from, you can use: git pull name-of-remote name-of-branch</td>
+            </tr>
+            <tr>
+                <td>8.</td>
+                <td>git push</td>
+                <td>By default, this will push to the origin remote’s master branch. Like pull, you can push to a specific remote and branch with: git push name-of-remote name-of-branch. </td>
+            </tr>
+            <tr>
+                <td>9.</td>
+                <td>git branch</td>
+                <td>Shows you all your local branches and indicates which branch you are currently on.</td>
+            </tr>
+            <tr>
+                <td>10.</td>
+                <td>git merge name-of-branch</td>
+                <td>Will merge the specified branch into the branch you are currently on.</td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <h2>Feedback</h2>
+        <form action="">
+            <label for="Topic">Your Suggestion</label>
+            <input style="width: 380px; height: 60px; align-content: center;" type="text" placeholder="Your next cheat sheet topic suggestion">
+            <br><br><br>
+            <button style="background-color: lightseagreen;border:none; width:80px; height:30px; font-size: 15px;">Submit</button>
+        </form>
+    </footer>
+</body>
+</html>
